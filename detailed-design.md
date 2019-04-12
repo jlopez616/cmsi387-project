@@ -13,3 +13,8 @@ Not Applicable
 
 
 ## 2.4 - List or table of explanations of all command line options that will be implemented
+First gain root access : `sudo -s`
+
+Use this to check what the current I/O scheduler is : `cat /sys/block/sda/queue/scheduler`
+
+This command changes the current scheduler to "deadline" : `sudo echo deadline > /sys/block/sda/queue/scheduler`
