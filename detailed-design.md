@@ -1,5 +1,6 @@
 ### 2.1 - Detailed list of Linux modules that will be modified/affected
-The only linux module we are going to be modifying is the scheduler `mq-deadline.c`. 
+The only linux module we are going to be modifying is the scheduler `block/mq-deadline.c`. 
+In case there is time to modify more than one algorithm, we will be modifying `block/kyber-iosched.c` and `block\bfq-iosched.c`.
 
 
 ### 2.2 - Detailed list of any new modules that you will produce [or 'Not Applicable' if there are none]
