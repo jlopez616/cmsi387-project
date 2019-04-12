@@ -1,5 +1,5 @@
 ## 2.1 - Detailed list of Linux modules that will be modified/affected
-mq-deadline.c is the scheduler which we are going to be modifying
+The only linux module we are going to be modifying is the scheduler `mq-deadline.c`. 
 
 
 ## 2.2 - Detailed list of any new modules that you will produce [or 'Not Applicable' if there are none]
